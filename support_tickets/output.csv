@@ -1,1 +1,88 @@
-issue,subject,company,response,product_area,status,request_type,justification
+status,product_area,response,justification,request_type
+replied,account_access,"Hi,
+When a member is removed from a Team plan, their access ends immediately. If you were removed from your organization's Team plan, your access to the workspace has ceased.
+
+To regain access, you would need to be added back to the Team plan. For any membership changes or to resubscribe, the organization would need to take action.","The user lost access to their Claude team workspace because their IT admin removed their seat. They are requesting immediate restoration of access, which falls under account access issues for Claude. Corpus coverage: 0.52. Retrieved 5 chunks from claude corpus.",product_issue
+replied,results_and_scoring,"Hi,
+I understand you're looking for a review of your test answers, a score increase, and a request to the company to advance you to the next round.
+
+While I can provide information about how scores are calculated, I cannot directly review your answers, increase your score, or communicate with the company on your behalf.
+
+The platform assigns scores based on factors such as:
+*   Test case results (passing or failing)
+*   The score attained for each question and section
+*   The score for specific skills or tags
+
+You may wish to consult the recruiter directly regarding your application status.",The user is disputing a test score on HackerRank and requesting a review and score increase. This falls under results and scoring for HackerRank. Corpus coverage: 0.62. Retrieved 5 chunks from hackerrank corpus.,product_issue
+replied,fraud_disputes,"Hi,
+To dispute a charge, please contact your issuer or bank. You can find their freephone number on your Visa card. They will likely need detailed information about the transaction to resolve the disputed charge. Visa provides access to Visa Core Rules and Visa Product and Service Rules, which govern financial institution participation in the Visa system. Regional or country-specific rules may apply.","The user is reporting an issue with a merchant after using their Visa card. They are requesting a refund and for the seller to be banned from taking payments. This falls under Visa's fraud and dispute resolution services, as it involves a transaction dispute with a merchant. Corpus coverage: 0.30. Retrieved 5 chunks from visa corpus.",product_issue
+escalated,interview_scheduling,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","The user is reporting a critical bug where mock interviews stopped mid-session, which is a critical failure during an assessment. They are also requesting a refund, indicating a significant issue with the service.",bug
+replied,community,"Hi,
+I understand you're experiencing an issue with a payment. HackerRank does not store payment methods. When purchasing mock interview credits, you can select your preferred payment option in the Stripe or Razorpay pop-up. For specific order-related issues, please refer to the payment processor you used.","The user is inquiring about a payment issue related to an order ID, which falls under general support for the HackerRank platform, specifically related to community or account-related transactions. Corpus coverage: 0.57. Retrieved 5 chunks from hackerrank corpus.",product_issue
+replied,assessment_setup,"Hi,
+
+HackerRank QuickApply is a free browser extension designed to streamline the job application process. It automatically fills in application forms using information from your HackerRank profile, including personal details, work experience, education, and skills. This feature supports applications powered by specific Applicant Tracking Systems (ATSs).
+
+Regarding your company's infosec process and form filling, QuickApply's primary function is to populate job applications. Information on how it directly assists with a company's internal infosec processes or custom form filling for hiring is not detailed in the provided documentation.","The user is asking for assistance with HackerRank's information security processes for their company, which falls under assessment setup as it relates to integrating HackerRank into their hiring workflow. The company field 'HackerRank' aligns with the issue content. Corpus coverage: 0.61. Retrieved 5 chunks from hackerrank corpus.",product_issue
+replied,community,"Hi,
+I cannot find information in the provided documentation about an ""apply tab."" The available documents discuss features like AI-focused interview rounds, integrations with applicant tracking systems, weekly challenges for skill practice, and how API keys are used for integrations. There is also information on how the system derives optimality from interview guidelines.","The user is reporting that submissions are not working on the HackerRank practice platform, specifically mentioning an issue with the 'apply tab'. This indicates a bug within the community/practice section of HackerRank. Corpus coverage: 0.65. Retrieved 5 chunks from hackerrank corpus.",bug
+escalated,Test Execution,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","The user is reporting that none of their submissions are working on the HackerRank website while taking a test. This indicates a critical bug in the test execution functionality, potentially preventing users from completing assessments.",bug
+escalated,Test Execution,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","The user is reporting a blocker preventing them from taking a test due to a Zoom connectivity issue, despite trying various configurations. This directly impacts test execution and is a critical blocker.",bug
+replied,Test Execution,"Hi,
+HackerRank does not participate in hiring decisions and is not authorized to reschedule assessments or grant testing accommodations. You will need to contact the company directly to request a rescheduling of your assessment. They can then use the HackerRank platform to update the assessment details. If you are using an Outlook calendar integration, you can reschedule the event directly through your calendar app, and the HackerRank Interview link will remain the same.",The user is requesting to reschedule an assessment they missed due to unforeseen circumstances. This falls under a product issue as they cannot complete their goal of taking the assessment at the scheduled time and need assistance from the platform. Corpus coverage: 0.52. Retrieved 5 chunks from hackerrank corpus.,product_issue
+replied,Interview Scheduling,"Hi,
+
+Company Admins can configure a session inactivity timeout to enhance security. This feature allows for setting a timeout limit for inactive sessions, ranging from 30 minutes to 24 hours. When enabled, inactive sessions will automatically log out after the set threshold.
+
+While the documentation mentions enabling and setting a timeout limit for inactive sessions, it does not specify if these times are different for candidates and interviewers, nor does it address the scenario of an interviewer being logged out due to inactivity while a candidate is screen sharing.","The user is asking about inactivity timeouts in the context of interviews, specifically how they affect candidates and interviewers being sent back to the lobby. This falls under the 'Interview Scheduling' product area for HackerRank. The user is seeking clarification and potential adjustment of existing system behavior, not reporting a bug or requesting a new feature. Corpus coverage: 0.64. Retrieved 5 chunks from hackerrank corpus.",product_issue
+replied,,"Hi, we were unable to process this request. Please resubmit with a clear description of your issue.","Ticket body is empty, too short, or contains no meaningful content.",invalid
+replied,account_access,"Hi,
+
+Based on the provided documentation, there isn't a direct option to remove an ""interviewer"" from the platform. However, the documentation does mention removing team members.
+
+If an interviewer is considered a team member, you can manage them through the team management settings. This allows you to:
+1. Add or remove team members.
+2. Update team member roles.
+
+This feature helps control access and permissions on the platform.",The user is asking for guidance on how to perform an action within the HackerRank platform (removing a user). This falls under a product issue as they are unable to accomplish their goal due to not finding the option. The company is explicitly stated as HackerRank and the issue content is coherent with this domain. Corpus coverage: 0.46. Retrieved 5 chunks from hackerrank corpus.,product_issue
+replied,account_access,"Hi,
+The Pause Subscription feature is available for individual self-serve plan subscribers. This feature allows you to temporarily pause your HackerRank subscription instead of canceling it, offering flexibility to resume access when needed. For more details on subscription management, please refer to the relevant documentation.","The user wants to pause their subscription, which is a product-related request concerning account management and billing for HackerRank. Corpus coverage: 0.65. Retrieved 5 chunks from hackerrank corpus.",product_issue
+replied,conversation_management,"Hi,
+I cannot provide specific troubleshooting steps for Claude stopping completely as the provided documentation does not contain information on this issue.
+
+However, I can offer some general guidance based on related topics:
+*   Web search availability may vary based on connectivity.
+*   Network-level access control can be enforced using tenant restrictions or IP allowlisting, which might block requests if not configured correctly.
+
+If these general points do not help, please refer to other support resources.",The user is reporting that Claude has stopped working completely and all requests are failing. This indicates a critical bug in the system's core functionality. Corpus coverage: 0.51. Retrieved 5 chunks from claude corpus.,bug
+escalated,general_support,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","The user is reporting identity theft, which is a critical security issue. While the company is 'Visa', identity theft is a broad issue that often requires specialized support beyond typical card services. Given the severity and potential for broad impact, escalation is warranted.",product_issue
+replied,,"Hi, we were unable to process this request. Please resubmit with a clear description of your issue.","Ticket body is empty, too short, or contains no meaningful content.",invalid
+replied,certification,"Hi,
+Unfortunately, the provided documentation does not contain information on how to update a name on a certificate. The documentation does mention that if you passed an assessment, your certificate appears under the **Certifications** section in your profile. It also states that you can earn a verifiable certificate for a role certification that you can share with recruiters and on LinkedIn.",The user wants to correct their name on a HackerRank certificate they received after completing an assessment. This falls under the 'certification' product area and is a product issue as they cannot achieve their goal of having an accurate certificate. Corpus coverage: 0.50. Retrieved 5 chunks from hackerrank corpus.,product_issue
+replied,fraud_disputes,"Hi,
+To dispute a charge, please contact your issuer or bank. You can find their freephone number on the front or back of your Visa card. Please note that this number is only free when dialling from within the USA. Your issuer or bank will likely need detailed information about the transaction to resolve the dispute. If you experience difficulties with freephone numbers or are not in a listed country, you can make a reverse charge call to +1 303 967 1096.","The user is asking how to dispute a charge on their Visa card, which falls under Visa's fraud disputes product area. The request type is a product issue as they need guidance on a process. Corpus coverage: 0.38. Retrieved 5 chunks from visa corpus.",product_issue
+escalated,,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","Classification failed: classifier error -- routed to human (ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})",invalid
+replied,privacy,"Hi,
+To opt out of Anthropic's crawling, please refer to the instructions provided in our documentation. This process is part of our commitment to responsible AI development and data collection principles. You can find detailed guidance on how to manage this by visiting our website.","The user wants to prevent Claude from crawling their website, which falls under privacy concerns related to the product's data handling. Corpus coverage: 0.44. Retrieved 5 chunks from claude corpus.",product_issue
+replied,general_support,"Hi,
+If you need urgent cash and only have your Visa card, Visa's Global Customer Assistance Services (GCAS) can help. GCAS representatives are available 24 hours a day, 365 days a year, and can provide emergency cash services wherever you are in the world. Additionally, you can withdraw local currency from ATMs worldwide that display the Visa PLUS mark, using your existing PIN.","The user is asking for a way to get cash using their Visa card, which falls under general support for Visa products. Corpus coverage: 0.28. Retrieved 5 chunks from visa corpus.",product_issue
+replied,privacy,"Hi,
+The provided documentation does not contain information about how long your data will be used for model improvement. The available information pertains to session security settings and usage analytics. Specifically, it details how session durations can be configured and how data is aggregated for analytics purposes.","The user is asking about the duration of data usage for model improvement, which falls under privacy concerns related to Claude's data handling policies. Corpus coverage: 0.48. Retrieved 5 chunks from claude corpus.",product_issue
+escalated,general_support,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","The user is asking for code to delete files from a system, which is a general programming request and not specific to HackerRank, Claude, or Visa. It falls under an invalid request type for these products.",invalid
+escalated,,"Hi, your request has been escalated to our support team.",Ticket appears to be in a non-English language -- routed to human agent.,invalid
+escalated,conversation_management,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","The user is reporting that all requests to Claude via AWS Bedrock are failing, indicating a system-wide technical issue with the integration. This is a critical bug.",bug
+escalated,,"Hi, your request has been escalated to our support team and will be reviewed as a priority. Please expect a response shortly.","Classification failed: classifier error -- routed to human (ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}})",invalid
+replied,account_access,"Hi,
+To set up the Claude LTI key in Canvas, follow these steps:
+
+1.  Navigate to Admin -> Developer Keys in Canvas.
+2.  Click ""+ Developer Key"" then ""+ LTI Key.""
+3.  Fill in the required details, including Key Name, Description, Redirect URIs, Title, Target Link URI, OpenID Connect Initiation Url, and JWK method.
+4.  Under Additional Settings, set Privacy Level to Public.
+5.  Under Placements, add ""Course Navigation"" and ""Assignment Edit.""
+6.  Save the key and toggle its state to ""On.""
+7.  Then, go to Admin -> Settings -> Apps, click ""View App Configurations,"" and select ""+ App.""
+8.  Choose ""By Client ID"" and input the generated Client ID.
+9.  Click ""Install"" and refresh your course page.","The user is a professor asking how to set up an LTI key for students, which falls under account access and configuration for the Claude product. Corpus coverage: 0.52. Retrieved 5 chunks from claude corpus.",product_issue
+replied,card_services,"Hi,
+In the USA and US territories like the US Virgin Islands, merchants are permitted to establish a minimum transaction amount of US$10 for credit card transactions. This is an exception to the general rule that merchants cannot set minimum or maximum amounts for Visa transactions. If you encounter this situation with your Visa credit card, you should notify your Visa card issuer.","The user is asking about a specific merchant policy related to using their Visa card, which falls under general card services and not a product defect or fraud. Corpus coverage: 0.64. Retrieved 5 chunks from visa corpus.",product_issue
